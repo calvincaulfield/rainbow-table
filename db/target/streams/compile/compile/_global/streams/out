@@ -1,4 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/ubuntu/dev/calvincaulfield/rainbow-table/db/src/main/scala/db/OracleConnection.scala:12:9: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.[0m
-[0m[[0m[33mwarn[0m] [0m[0m			case _ => {[0m
-[0m[[0m[33mwarn[0m] [0m[0m			     ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ubuntu/dev/calvincaulfield/rainbow-table/db/src/main/scala/rainbow_table/Main.scala:26:20: unclosed character literal (or use " not ' for string literal)[0m
+[0m[[0m[31merror[0m] [0m[0m		println('getPath ' + path)[0m
+[0m[[0m[31merror[0m] [0m[0m		                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

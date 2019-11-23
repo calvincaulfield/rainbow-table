@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/dev/calvincaulfield/rainbow-table/src/md5.h
+string.h
+-
+cstdint
+-
+
+/home/ubuntu/dev/calvincaulfield/rainbow-table/src/rainbow_table.h
+vector
+-
+string
+-
+
+/home/ubuntu/dev/calvincaulfield/rainbow-table/src/rainbow_table_test.cc
+md5.h
+/home/ubuntu/dev/calvincaulfield/rainbow-table/src/md5.h
+rainbow_table_test.h
+/home/ubuntu/dev/calvincaulfield/rainbow-table/src/rainbow_table_test.h
+rainbow_table.h
+/home/ubuntu/dev/calvincaulfield/rainbow-table/src/rainbow_table.h
+iostream
+-
+string
+-
+
+/home/ubuntu/dev/calvincaulfield/rainbow-table/src/rainbow_table_test.h
+

@@ -1,4 +1,4 @@
-package lib.text.viewer
+package util
 import java.io._
 
 class TextViewer {

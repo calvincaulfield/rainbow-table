@@ -1,4 +1,4 @@
-package lib.db.loader
+package util
 
 import java.io._
 import java.sql.{ Connection, PreparedStatement }

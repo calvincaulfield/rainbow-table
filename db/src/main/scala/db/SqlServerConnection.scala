@@ -1,4 +1,4 @@
-package lib.db.connection
+package db
 
 import java.sql.{ DriverManager, Connection }
 

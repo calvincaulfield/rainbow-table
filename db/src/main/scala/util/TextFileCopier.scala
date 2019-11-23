@@ -1,9 +1,9 @@
-package lib.text.copier
+package util
 import java.io._
+import java.nio.charset.Charset;
 import scala.util._
 import scala.util.control.Breaks._
 import scala.io.Source
-import java.nio.charset.Charset;
 import scala.collection.mutable._;
 
 class TextFileCopier(val sourceFileName: String, val targetFileName: String) {

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/dev/calvincaulfield/rainbow-table/src/lib.cc
+lib.h
+/home/ubuntu/dev/calvincaulfield/rainbow-table/src/lib.h
+
+/home/ubuntu/dev/calvincaulfield/rainbow-table/src/lib.h
+iostream
+-
+fstream
+-
+sstream
+-
+vector
+-
+string
+-
+

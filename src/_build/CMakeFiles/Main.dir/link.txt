@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3  -rdynamic CMakeFiles/Main.dir/main.cc.o  -o Main libRainbowTableTest.a libRainbowTable.a libMd5.a libLib.a 

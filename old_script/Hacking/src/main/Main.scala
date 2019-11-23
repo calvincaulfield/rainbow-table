@@ -26,13 +26,13 @@ object Main {
 
 	def hackingTest(): Unit = {
 		//new Loader("D:\\dev/data/hacking/password/password_10k.txt",
-			//new SqlServerConnection("Hacking").connection, "RainbowTable.Password_10K").loadPassword()
+			//new SqlServerConnection("rainbow_table").connection, "RainbowTable.Password_10K").loadPassword()
 
 		//new Loader("D:\\dev/data/hacking/test/first_last_10k.txt",
-		//new SqlServerConnection("Hacking").connection, "RainbowTable.FirstLast_10K").loadFirstLast
+		//new SqlServerConnection("rainbow_table").connection, "rainbow_table.first_lask_10k").loadFirstLast
 
 		new ChainLookup("D:\\dev/data/hacking/test/chain.txt", "D:\\dev/data/hacking/test/first.txt",
-			new SqlServerConnection("Hacking").connection, "RainbowTable.FirstLast_10K")
+			new SqlServerConnection("rainbow_table").connection, "rainbow_table.first_lask_10k")
 
 	}
 

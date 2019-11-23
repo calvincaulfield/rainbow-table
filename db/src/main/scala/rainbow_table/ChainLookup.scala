@@ -1,4 +1,4 @@
-package db
+package rainbow_table
 import java.sql._
 import java.io._
 import scala.collection.mutable._;
